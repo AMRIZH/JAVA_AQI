@@ -1,0 +1,50 @@
+jakarta 6°11'42.5"S 106°49'21.8"E
+surakarta 7°33'16.6"S, 110°48'17.4"E
+semarang 6°59'03.0"S 110°24'34.7"E
+Yogyakarta 7°48'05.8"S 110°22'21.8"E
+Surabaya 7°16'18.0"S 112°43'26.4"E
+denpasar 8°39'49.0"S 115°13'18.0"E
+malang 7°57'48.7"S 112°37'50.7"E
+tegal 6°52'36.7"S 109°07'06.5"E
+purwokerto 7°25'38.2"S 109°14'17.7"E
+bandung 6°55'16.8"S 107°37'55.2"E
+
+Jakarta
+Latitude: -6.19514°
+Longitude: 106.82272°
+
+Surakarta
+Latitude: -7.55461°
+Longitude: 110.80483°
+
+Semarang
+Latitude: -6.98417°
+Longitude: 110.40964°
+
+Yogyakarta
+Latitude: -7.80161°
+Longitude: 110.37272°
+
+Surabaya
+Latitude: -7.27167°
+Longitude: 112.724°
+
+Denpasar
+Latitude: -8.66361°
+Longitude: 115.22167°
+
+Malang
+Latitude: -7.96353°
+Longitude: 112.63075°
+
+Tegal
+Latitude: -6.87686°
+Longitude: 109.11847°
+
+Purwokerto
+Latitude: -7.42728°
+Longitude: 109.23825°
+
+Bandung
+Latitude: -6.92133°
+Longitude: 107.632°
