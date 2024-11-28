@@ -44,7 +44,7 @@ The required libraries are listed in `requirements.txt`. Below are the dependenc
 
 1. Replace `YOUR_API_KEY` in the script with your Google AQI API key.
 
-2. Update the list of cities in the fetch script (`aqi_fetcher.py`) as needed:
+2. Update the list of cities in the fetch script (`fecth_AQI_Cities.py`) as needed:
    ```python
    CITIES = [
        {"name": "Jakarta", "latitude": -6.19514, "longitude": 106.82272},
@@ -60,7 +60,7 @@ The required libraries are listed in `requirements.txt`. Below are the dependenc
 Run the script to fetch AQI data for multiple cities and save individual CSV files:
 
 ```bash
-python aqi_fetcher.py
+python fecth_AQI_Cities.py
 ```
 
 This script will:
@@ -73,7 +73,7 @@ This script will:
 Run the script to combine all the individual CSV files into a single file:
 
 ```bash
-python combine_csv.py
+python combineCSV.py
 ```
 
 This script will:
@@ -99,11 +99,3 @@ The combined `aqi_november.csv` file will have the following structure:
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
-### `requirements.txt`
-
-```plaintext
-requests
-```
