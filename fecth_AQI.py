@@ -2,9 +2,14 @@ import requests
 import json
 import csv
 from datetime import datetime, timedelta
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from a .env file
+load_dotenv()
 
 # Replace with your API key
-API_KEY = "AIzaSyAJiTwuWQ-Fz8hiPM1327iAWgDvvzYclwI"
+API_KEY = os.getenv("API_KEY")
 API_URL = f"https://airquality.googleapis.com/v1/history:lookup?key={API_KEY}"
 
 # Coordinates for Surakarta

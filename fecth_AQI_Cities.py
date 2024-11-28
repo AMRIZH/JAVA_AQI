@@ -3,10 +3,13 @@ import json
 import csv
 import os
 from datetime import datetime, timedelta
-import dotenv
+from dotenv import load_dotenv
+
+# Load environment variables from a .env file
+load_dotenv()
 
 # Replace with your API key
-API_KEY = "AIzaSyAJiTwuWQ-Fz8hiPM1327iAWgDvvzYclwI"
+API_KEY = os.getenv("API_KEY")
 API_URL = f"https://airquality.googleapis.com/v1/history:lookup?key={API_KEY}"
 
 # Directory to save the files
